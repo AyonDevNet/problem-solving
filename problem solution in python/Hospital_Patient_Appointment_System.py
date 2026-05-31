@@ -67,7 +67,7 @@ def doctor_appointment():
 
         elif option == '3':
             name_ID = input("Enter Appointment ID to Cancel: ").strip()
-            found = False                              # ✅ Bug 1 fixed
+            found = False                             
             for s in appointment_DB:
                 if s["appointment_id"] == name_ID:
                     appointment_DB.remove(s)
