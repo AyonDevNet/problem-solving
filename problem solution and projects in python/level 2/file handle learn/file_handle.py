@@ -83,3 +83,11 @@ with open("data.txt", 'w') as faaaah:
 with open("images(1).jpg", "rb") as fi:
     with open("copy_images.jpg", "wb") as wf:
         wf.write(fi.read())
+
+
+
+
+# 3 — Append to file (add without deleting)
+file = open("data.txt", "a")
+file.write("New line")
+file.close()
