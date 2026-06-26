@@ -11,3 +11,7 @@ with open("config.json", "r") as file:
     loaded_settings = json.load(file)
 
 print(loaded_settings["theme"])  # Output: dark
+
+
+
+    
